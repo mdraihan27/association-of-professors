@@ -1,0 +1,58 @@
+[
+  [
+    {
+      "name": "서은주",
+      "role": "사회학과 교수",
+      "body": "현장에서 만나는 갈등·불평등의 문제가 연구실과 정책 현장과 따로 움직인다는 느낌을 자주 받습니다. 서로의 언어를 통역해 줄 공간이 필요합니다.<br/><br/>대한교수협회가 이런 사례를 모아 학문과 사회를 잇는 연결점이 되었으면 합니다.",
+      "cardClass": "w-[312px] p-6 bg-gray-50 rounded-[32px] outline outline-2 outline-offset-[-2px] outline-[#141414] flex flex-col justify-start items-start gap-4"
+    },
+    {
+      "name": "박수진",
+      "role": "공공정책 연구원",
+      "body": "학생, 시민, 현장 전문가들이 함께 질문하고 토론할 수 있는 공개 지식 커뮤니티를 오랫동안 꿈꿔 왔습니다.<br/><br/>대한교수협회와 네이버 카페가 그 출발점이 된다면, 전공과 세대를 넘어 서로 배우는 “안전한 공론장”이 될 것 같습니다.",
+      "cardClass": "w-[312px] h-[393px] p-6 bg-gray-50 rounded-[32px] outline outline-2 outline-offset-[-2px] outline-[#141414] flex flex-col justify-between items-start"
+    }
+  ],
+  [
+    {
+      "name": "오명호",
+      "role": "공과대학 교수",
+      "body": "강의·연구·행정 일을 하다 보면 혼자 고민하게 되는 문제가 참 많습니다. 그 이야기를 전공이 다른 교수님들과 편하게 나눌 수 있는 자리가 생겼다는 것만으로도 든든한 버팀목이 됩니다.<br/><br/>대한교수협회가 이런 대화를 일회성 모임이 아니라, 꾸준히 이어지는 동료 교수들의 지성 네트워크로 자리 잡기를 기대하고 있습니다",
+      "cardClass": "w-[312px] h-[474px] p-6 bg-gray-50 rounded-[32px] outline outline-2 outline-offset-[-2px] outline-[#141414] flex flex-col justify-between items-start"
+    },
+    {
+      "name": "김태형",
+      "role": "신진 연구자",
+      "body": "논문으로만 남던 연구 주제들을 실제 사회 문제와 연결해 이야기할 수 있다는 점이 가장 매력적으로 느껴집니다.<br/><br/>신진 연구자 입장에서도 전국의 교수님들과 연결될 수 있는 드문 기회라고 생각합니다.",
+      "cardClass": "w-[312px] h-[370px] p-6 bg-gray-50 rounded-[32px] outline outline-2 outline-offset-[-2px] outline-[#141414] flex flex-col justify-between items-start"
+    }
+  ],
+  [
+    {
+      "name": "최민영",
+      "role": "사회복지학교수",
+      "body": "전국의 여러 전공 교수들이 하나의 ‘지성 공동체’를 지향하며 모인다는 점이 무엇보다 반갑습니다.<br><br/>이곳에서 나온 연구와 논의가 교육 정책과 학교·지역 현장의 변화로 자연스럽게 이어지고, 현장의 목소리가 연구와 제도에 반영되는 길이 열리길 기대합니다.<br><br/>대한교수협회가 그 흐름을 만들어 가는 출발점이 되었으면 합니다.",
+      "cardClass": "w-[312px] h-[531px] p-6 bg-gray-50 rounded-[32px] outline outline-2 outline-offset-[-2px] outline-[#141414] flex flex-col justify-between items-start"
+    },
+    {
+      "name": "송지은",
+      "role": "지역대학 교수",
+      "body": "지방 소규모 대학에 있다 보면 연구·교류의 기회가 제한적일 때가 많습니다.<br/><br/>대한교수협회 네트워크 안에서는 학교의 규모와 지역을 떠나 서로의 지식과 경험을 나눌 수 있을 것 같아 큰 기대를 하고 있습니다.",
+      "cardClass": "w-[312px] h-[400px] p-6 bg-gray-50 rounded-[32px] outline outline-2 outline-offset-[-2px] outline-[#141414] flex flex-col justify-between items-start"
+    }
+  ],
+  [
+    {
+      "name": "정미선",
+      "role": "아동·가족상담센터 소장",
+      "body": "아동·가족상담을 하다 보면, “이 경험을 학계와 함께 나눌 수 있으면 좋겠다”는 생각을 자주 합니다.<br/><br/>대한교수협회가 센터 현장의 고민과 교수·연구자의 지식을 연결해 주는 허브가 된다면, 아이와 부모에게 더 나은 도움을 줄 수 있을 것이라 기대하고 있습니다.",
+      "cardClass": "w-[312px] h-[420px] p-6 bg-gray-50 rounded-[32px] outline outline-2 outline-offset-[-2px] outline-[#141414] flex flex-col justify-between items-start"
+    },
+    {
+      "name": "이재훈",
+      "role": "대학원생",
+      "body": "작은 연구실에서 시작한 고민이 전국 교수님들과 논의될 수 있다는 사실만으로도 연구를 대하는 마음가짐이 달라집니다.<br/><br/>후학 입장에서는 “질문해도 되는 공간”이 있다는 것이 무엇보다 고맙습니다.",
+      "cardClass": "w-[312px] p-6 bg-gray-50 rounded-[32px] outline outline-2 outline-offset-[-2px] outline-[#141414] flex flex-col justify-start items-start gap-4"
+    }
+  ]
+]
