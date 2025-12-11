@@ -9,12 +9,12 @@ export function Hero() {
     </div>
     <div className="text-center justify-start text-slate-300 text-lg font-normal font-['Roboto'] leading-[28.80px]">대한민국 여러 대학, 다양한 전공의 교수들이 모였습니다.<br/>대한교수협회는 지성의 힘으로 더 나은 미래를 설계하는 공동체입니다.</div>
     <div className="w-[528px] inline-flex justify-center items-center gap-[29px]">
-      <div className="flex-1 p-4 bg-[#b89752] rounded-lg outline outline-1 outline-offset-[-1px] outline-[#846932] flex justify-center items-center transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:bg-[#c8a860]">
+      <div className="flex-1 p-4 bg-[#b89752] rounded-lg outline outline-1 outline-offset-[-1px] outline-[#846932] flex justify-center items-center transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:bg-[#c8a860] active:translate-y-0 active:shadow-md active:bg-[#a27e3e] cursor-pointer">
         <div className="size- px-4 flex justify-center items-center">
           <div className="justify-start text-black text-xl font-bold font-['Roboto'] leading-6 tracking-wide">협회 소개 보기</div>
         </div>
       </div>
-      <div className="flex-1 p-4 bg-[#3a485d] rounded-lg outline outline-1 outline-offset-[-1px] outline-slate-600 flex justify-center items-center transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:bg-[#4b5c77]">
+      <div className="flex-1 p-4 bg-[#3a485d] rounded-lg outline outline-1 outline-offset-[-1px] outline-slate-600 flex justify-center items-center transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:bg-[#4b5c77] active:translate-y-0 active:shadow-md active:bg-[#303a4d] cursor-pointer">
         <div className="size- px-4 flex justify-center items-center">
           <div className="justify-start text-white text-xl font-medium font-['Roboto'] leading-6 tracking-wide">네이버 카페 바로가기</div>
         </div>

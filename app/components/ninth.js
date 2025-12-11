@@ -121,22 +121,30 @@ export function SimpleMovingCarousel() {
     <div className="w-full overflow-hidden py-10">
       <style>{`
         @keyframes ninth-carousel-slide {
-          0% { transform: translateX(0); }
-          100% { transform: translateX(-${singleSetWidth}px); }
+          0% { transform: translate3d(0, 0, 0); }
+          100% { transform: translate3d(-${singleSetWidth}px, 0, 0); }
+        }
+
+        .ninth-carousel-track:hover {
+          animation-play-state: paused;
+        }
+
+        .ninth-carousel-track {
+          animation: ninth-carousel-slide 40s linear infinite;
+          will-change: transform;
         }
       `}</style>
       <div
-        className="flex items-center"
+        className="flex items-center ninth-carousel-track"
         style={{
           gap: "50px",
           width: "max-content",
-          animation: `ninth-carousel-slide 40s linear infinite`,
         }}
       >
         {duplicated.map((src, idx) => (
           <div
             key={`${src}-${idx}`}
-            className="flex-none w-[400px] h-[240px] overflow-hidden rounded-lg bg-neutral-200"
+            className="flex-none w-[400px] h-[240px] overflow-hidden rounded-lg bg-neutral-200 transition-all duration-300 hover:scale-[1.03] hover:shadow-[0px_18px_45px_-20px_rgba(0,0,0,0.4)]"
           >
             <img src={src} alt="" className="w-full h-full object-cover" />
           </div>
