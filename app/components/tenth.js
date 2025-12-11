@@ -6,7 +6,9 @@ import { Heart } from "./illustrations/heart";
 function Card({ card }) {
   const { cardClass, name, role, body } = card;
   return (
-    <div className={cardClass}>
+    <div
+      className={`${cardClass} relative transition-all duration-200 hover:-translate-y-2 hover:shadow-[0px_24px_60px_-20px_rgba(0,0,0,0.35)] hover:bg-white hover:outline-[#02203b] hover:scale-[1.01] hover:z-[100]`}
+    >
       <div className="self-stretch flex flex-col justify-start items-start gap-3">
         <div className="self-stretch inline-flex justify-start items-center gap-4">
           <div className="size-14 relative bg-[#02203b] rounded-[100px] overflow-hidden flex justify-center items-center">
@@ -52,7 +54,7 @@ export function Tenth() {
           우리는 다른 의견을 틀린 것으로 보지 않고,<br></br>서로의 관점을 인정하고 존중하는 것이 더 나은 학회를 만드는 길이라고 믿습니다.
         </div>
       </div>
-      <div className="self-stretch inline-flex justify-between items-start overflow-hidden">
+      <div className="self-stretch inline-flex justify-between items-start overflow-visible">
         {cards.map((column, columnIndex) => (
           <div key={columnIndex} className="size- inline-flex flex-col justify-start items-start gap-6">
             {column.map((card) => (

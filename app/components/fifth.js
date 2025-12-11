@@ -12,7 +12,7 @@ export function Fifth() {
           대한교수협회가 지향하는 네 가지 축을 한눈에 정리했습니다.
         </div>
       </div>
-      <div className="me-[630px] relative z-20 p-6 bg-white rounded-3xl shadow-[0px_35px_116px_-10px_rgba(154,167,193,0.25)] inline-flex justify-start items-center gap-4">
+      <div className="me-[630px] relative z-20 p-6 bg-white rounded-3xl shadow-[0px_35px_116px_-10px_rgba(154,167,193,0.25)] inline-flex justify-start items-center gap-4 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_40px_128px_-10px_rgba(154,167,193,0.30)] hover:bg-[#f9fbff]">
         <div className="size-[73px] px-[21px] py-[9px] bg-[#ebf3ff] rounded-[36.50px] flex justify-start items-center gap-2.5">
           <Icon1 />
         </div>
@@ -26,7 +26,7 @@ export function Fifth() {
           </div>
         </div>
       </div>
-      <div className="ms-[530px] relative z-20 p-6 bg-white rounded-3xl shadow-[0px_35px_116px_-10px_rgba(154,167,193,0.25)] inline-flex justify-start items-center gap-4">
+      <div className="ms-[530px] relative z-20 p-6 bg-white rounded-3xl shadow-[0px_35px_116px_-10px_rgba(154,167,193,0.25)] inline-flex justify-start items-center gap-4 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_40px_128px_-10px_rgba(154,167,193,0.30)] hover:bg-[#f9fbff]">
         <div className="size-[73px] px-4 py-[18px] bg-[#ebf3ff] rounded-[36.50px] inline-flex flex-col justify-center items-center gap-2.5">
           <Icon2 />
         </div>
@@ -40,7 +40,7 @@ export function Fifth() {
           </div>
         </div>
       </div>
-      <div className="me-[600px] relative z-20 p-6 bg-white rounded-3xl shadow-[0px_35px_116px_-10px_rgba(154,167,193,0.25)] inline-flex justify-start items-center gap-4">
+      <div className="me-[600px] relative z-20 p-6 bg-white rounded-3xl shadow-[0px_35px_116px_-10px_rgba(154,167,193,0.25)] inline-flex justify-start items-center gap-4 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_40px_128px_-10px_rgba(154,167,193,0.30)] hover:bg-[#f9fbff]">
         <div className="size-[73px] bg-[#ebf3ff] rounded-full flex justify-center items-center">
           <Icon3 />
         </div>
@@ -54,7 +54,7 @@ export function Fifth() {
           </div>
         </div>
       </div>
-      <div className="ms-[520px] relative z-20 w-[760px] p-6 bg-white rounded-3xl shadow-[0px_35px_116px_-10px_rgba(154,167,193,0.25)] inline-flex justify-start items-start gap-4">
+      <div className="ms-[520px] relative z-20 w-[760px] p-6 bg-white rounded-3xl shadow-[0px_35px_116px_-10px_rgba(154,167,193,0.25)] inline-flex justify-start items-start gap-4 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_40px_128px_-10px_rgba(154,167,193,0.30)] hover:bg-[#f9fbff]">
         <div className="size-[73px] bg-[#ebf3ff] rounded-full flex justify-center items-center">
           <Icon4 />
         </div>

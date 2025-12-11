@@ -19,28 +19,28 @@ export function Sixth() {
       </div>
       <Logo className="w-[783px] h-[816px] left-[836px] top-[353.33px] absolute z-10" />
       <div className="w-[856px] flex flex-col justify-center items-center gap-6 relative z-30">
-        <div className="self-stretch px-10 py-4 bg-white rounded-lg shadow-[0px_5px_5px_0px_rgba(0,0,0,0.20)] inline-flex justify-start items-center gap-10">
+        <div className="self-stretch px-10 py-4 bg-white rounded-lg shadow-[0px_5px_5px_0px_rgba(0,0,0,0.20)] inline-flex justify-start items-center gap-10 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_12px_24px_0px_rgba(0,0,0,0.16)] hover:bg-[#f9fbff]">
           <div className="w-[4px] h-[50px] bg-black "></div>
           <div className="flex-1 text-center justify-start text-black text-xl font-normal font-['Roboto'] leading-9">
             하나. 우리는 대한교수협회의 본분을 다하며, 정의롭고 공정한 교육을
             실천한다.
           </div>
         </div>
-        <div className="self-stretch px-10 py-4 bg-white rounded-lg shadow-[0px_5px_5px_0px_rgba(0,0,0,0.20)] inline-flex justify-start items-center gap-12">
+        <div className="self-stretch px-10 py-4 bg-white rounded-lg shadow-[0px_5px_5px_0px_rgba(0,0,0,0.20)] inline-flex justify-start items-center gap-12 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_12px_24px_0px_rgba(0,0,0,0.16)] hover:bg-[#f9fbff]">
           <div className="w-[4px] h-[50px] bg-black "></div>
           <div className="flex-1 text-center justify-start text-black text-xl font-normal font-['Roboto'] leading-9">
             하나. 우리는 학문의 자유를 수호하며, 교수 본연의 학문적 사명을
             변함없이 실천한다.
           </div>
         </div>
-        <div className="self-stretch px-10 py-4 bg-white rounded-lg shadow-[0px_5px_5px_0px_rgba(0,0,0,0.20)] inline-flex justify-start items-center gap-12">
+        <div className="self-stretch px-10 py-4 bg-white rounded-lg shadow-[0px_5px_5px_0px_rgba(0,0,0,0.20)] inline-flex justify-start items-center gap-12 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_12px_24px_0px_rgba(0,0,0,0.16)] hover:bg-[#f9fbff]">
           <div className="w-[4px] h-[50px] bg-black "></div>
           <div className="flex-1 text-center justify-start text-black text-xl font-normal font-['Roboto'] leading-9">
             하나. 우리는 소통과 상호 존중을 바탕으로 사회의 품위를 지키고,<br></br>
             협회의 가치와 규범을 실천하여 학술 환경의 질적 향상에 협력한다.
           </div>
         </div>
-        <div className="self-stretch px-10 py-4 bg-white rounded-lg shadow-[0px_5px_5px_0px_rgba(0,0,0,0.20)] inline-flex justify-start items-center gap-14">
+        <div className="self-stretch px-10 py-4 bg-white rounded-lg shadow-[0px_5px_5px_0px_rgba(0,0,0,0.20)] inline-flex justify-start items-center gap-14 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_12px_24px_0px_rgba(0,0,0,0.16)] hover:bg-[#f9fbff]">
           <div className="w-[4px] h-[50px] bg-black "></div>
           <div className="flex-1 text-center justify-start text-black text-xl font-normal font-['Roboto'] leading-9">
             하나. 우리는 대한민국의 미래를 가꾸는 책임 있는 지식인으로서<br></br>

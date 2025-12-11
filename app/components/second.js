@@ -21,7 +21,7 @@ export function Second() {
         </div>
       </div>
       <div className="self-stretch inline-flex justify-start items-start gap-[75px]">
-        <div className="flex-1 h-[302px] bg-white rounded-[10px] shadow-[0px_0px_6px_0px_rgba(0,0,0,0.07)] shadow-lg outline outline-[5px] outline-[#e0e0e6] inline-flex flex-col justify-center items-start overflow-hidden">
+        <div className="flex-1 h-[302px] bg-white rounded-[10px] shadow-[0px_0px_6px_0px_rgba(0,0,0,0.07)] shadow-lg outline outline-[5px] outline-[#e0e0e6] inline-flex flex-col justify-center items-start overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_16px_30px_0px_rgba(0,0,0,0.12)] hover:outline-[#d6d6de]">
           <div className="self-stretch p-8 flex flex-col justify-center items-start gap-8">
             <div className="w-[346px] inline-flex justify-center items-center gap-[21px]">
               <Puzzle className="w-[43px] h-[43px] " />
@@ -63,7 +63,7 @@ export function Second() {
             </div>
           </div>
         </div>
-        <div className="w-[657px] bg-[#f7f3ec] rounded-[10px] shadow-[0px_0px_6px_0px_rgba(0,0,0,0.15)] shadow-[0px_10px_15px_0px_rgba(0,0,0,0.15)] outline outline-[5px] outline-[#beb29f] inline-flex flex-col justify-center items-start overflow-hidden">
+        <div className="w-[657px] bg-[#f7f3ec] rounded-[10px] shadow-[0px_0px_6px_0px_rgba(0,0,0,0.15)] shadow-[0px_10px_15px_0px_rgba(0,0,0,0.15)] outline outline-[5px] outline-[#beb29f] inline-flex flex-col justify-center items-start overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_18px_32px_0px_rgba(0,0,0,0.14)] hover:outline-[#d1c5b2]">
           <div className="self-stretch p-8 flex flex-col justify-center items-start gap-8">
             <div className="w-[460px] inline-flex justify-center items-center gap-[21px]">
               <HeadTalk className="w-[55px] h-[46px]" />

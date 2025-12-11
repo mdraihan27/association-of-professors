@@ -62,7 +62,7 @@ export function Third() {
         </div>
 
         <div className="w-[1290px] inline-flex justify-start items-center gap-8">
-          <div className="flex-1 p-6 bg-white rounded-2xl shadow-[0px_15px_35px_0px_rgba(0,0,0,0.05)] outline outline-1 outline-offset-[-1px] outline-[#e5eaf4] flex justify-start items-start gap-6">
+          <div className="flex-1 p-6 bg-white rounded-2xl shadow-[0px_15px_35px_0px_rgba(0,0,0,0.05)] outline outline-1 outline-offset-[-1px] outline-[#e5eaf4] flex justify-start items-start gap-6 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_20px_45px_0px_rgba(0,0,0,0.12)] hover:outline-[#d4deee]">
             <div className="w-9 h-[37px] relative">
               <ThirdBlueIcon className="size-9 left-0 top-0 absolute" />
             </div>
@@ -76,7 +76,7 @@ export function Third() {
             </div>
           </div>
 
-          <div className="flex-1 p-6 bg-white rounded-2xl shadow-[0px_15px_35px_0px_rgba(0,0,0,0.05)] outline outline-1 outline-offset-[-1px] outline-[#e5eaf4] flex justify-start items-start gap-6">
+          <div className="flex-1 p-6 bg-white rounded-2xl shadow-[0px_15px_35px_0px_rgba(0,0,0,0.05)] outline outline-1 outline-offset-[-1px] outline-[#e5eaf4] flex justify-start items-start gap-6 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_20px_45px_0px_rgba(0,0,0,0.12)] hover:outline-[#d4deee]">
             <div className="w-9 h-[37px] relative">
               <ThirdGoldenIcon className="w-[30px] h-9 left-[3px] top-[0.50px] absolute" />
             </div>
@@ -91,7 +91,7 @@ export function Third() {
             </div>
           </div>
 
-          <div className="flex-1 p-6 bg-white rounded-2xl shadow-[0px_15px_35px_0px_rgba(0,0,0,0.05)] outline outline-1 outline-offset-[-1px] outline-[#e5eaf4] flex justify-start items-start gap-6">
+          <div className="flex-1 p-6 bg-white rounded-2xl shadow-[0px_15px_35px_0px_rgba(0,0,0,0.05)] outline outline-1 outline-offset-[-1px] outline-[#e5eaf4] flex justify-start items-start gap-6 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_20px_45px_0px_rgba(0,0,0,0.12)] hover:outline-[#d4deee]">
             <div className="w-9 h-[37px] relative">
               <ThirdDarkIcon className="w-9 h-[34px] left-0 top-[1.50px] absolute" />
             </div>

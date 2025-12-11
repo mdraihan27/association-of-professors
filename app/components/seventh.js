@@ -30,7 +30,7 @@ export function Seventh() {
         </div>
         <div className="flex flex-col items-start gap-10 w-full">
           <div className="flex items-start gap-4 w-full">
-            <div className="flex flex-col justify-between items-center rounded-xl border-3 border-[#000] bg-[#FFF] w-[310px] h-90 overflow-hidden">
+            <div className="flex flex-col justify-between items-center rounded-xl border-3 border-[#000] bg-[#FFF] w-[310px] h-90 overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_18px_40px_-14px_rgba(0,0,0,0.25)] hover:border-[#0f2f52] hover:bg-[#f9fbff]">
               <div className="flex py-5 px-4 flex-col items-start gap-3 w-full">
                 <svg
                   width="18"
@@ -74,7 +74,7 @@ export function Seventh() {
                 
               </div>
             </div>
-            <div className="flex flex-col items-center rounded-xl border-3 border-[#000] bg-[#FFF] w-[310px] h-90 overflow-hidden">
+            <div className="flex flex-col items-center rounded-xl border-3 border-[#000] bg-[#FFF] w-[310px] h-90 overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_18px_40px_-14px_rgba(0,0,0,0.25)] hover:border-[#0f2f52] hover:bg-[#f9fbff]">
               <div className="flex py-5 px-4 flex-col items-start gap-3 shrink-0 w-full h-65">
                 <svg
                   width="18"
@@ -112,7 +112,7 @@ export function Seventh() {
                 
               </div>
             </div>
-            <div className="flex flex-col justify-between items-between rounded-xl border-3 border-[#000] bg-[#FFF] w-[310px] h-90 overflow-hidden">
+            <div className="flex flex-col justify-between items-between rounded-xl border-3 border-[#000] bg-[#FFF] w-[310px] h-90 overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_18px_40px_-14px_rgba(0,0,0,0.25)] hover:border-[#0f2f52] hover:bg-[#f9fbff]">
               <div className="flex py-5 px-4 flex-col items-start gap-3 w-full">
                 <svg
                   width="18"
@@ -155,7 +155,7 @@ export function Seventh() {
                 
               </div>
             </div>
-            <div className="flex flex-col justify-between h-[360px] rounded-xl border-3 border-[#000] bg-[#FFF] w-[310px] overflow-hidden">
+            <div className="flex flex-col justify-between h-[360px] rounded-xl border-3 border-[#000] bg-[#FFF] w-[310px] overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_18px_40px_-14px_rgba(0,0,0,0.25)] hover:border-[#0f2f52] hover:bg-[#f9fbff]">
               <div className="flex py-5 px-4 flex-col items-start gap-3 w-full">
                 <svg
                   width="18"
@@ -201,7 +201,7 @@ export function Seventh() {
               </div>
             </div>
           </div>
-          <button className="cursor-pointer text-nowrap flex py-8 px-0 justify-center items-center gap-5 rounded-xl bg-[#02203B] w-full">
+          <button className="cursor-pointer text-nowrap flex py-8 px-0 justify-center items-center gap-5 rounded-xl bg-[#02203B] w-full transition-all duration-200 hover:-translate-y-1 hover:bg-[#0a2f5a] hover:shadow-[0px_18px_38px_-12px_rgba(2,32,59,0.45)] active:translate-y-0 active:shadow-[0px_12px_26px_-14px_rgba(2,32,59,0.40)] active:bg-[#011c35]">
             <p className="text-[#FFF] font-roboto text-[22px] font-semibold leading-[1.2em] w-fit">
               네이버 카페 바로가기
             </p>
