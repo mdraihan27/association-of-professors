@@ -41,7 +41,7 @@ export default function Home() {
         <Fifth />
       </div>
 
-      <div className="w-full bg-white flex justify-center">
+      <div className="w-full bg-white flex justify-center ">
         {" "}
         <Sixth />
       </div>
@@ -50,7 +50,7 @@ export default function Home() {
         {" "}
         <Seventh />
       </div>
-      <div className="w-full bg-white flex justify-center">
+      <div className="w-full bg-white flex justify-center relative z-10">
         {" "}
         <Eighth />
       </div>

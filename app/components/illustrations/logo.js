@@ -1,9 +1,9 @@
-export function Logo({className}) {
+export function Logo({ className }) {
   return (
     <svg
-      width="514"
+      width="783"
       height="816"
-      viewBox="0 0 514 816"
+      viewBox="0 0 783 816"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}

@@ -5,7 +5,7 @@ import { Tick } from "./illustrations/tick";
 export function Eighth() {
   return (
     <div className="w-[1440px] px-[75px] py-20 relative bg-white inline-flex flex-col justify-center items-center gap-20 overflow-hidden">
-      <Logo className="w-[585px] h-[611px] left-[-43px] top-[600.33px] absolute rotate-180 z-10" />
+      <Logo className="w-[585px] h-[611px] left-[-43px] top-[600.33px] absolute rotate-180 z-20" />
       <div className="self-stretch flex flex-col justify-start items-center gap-10 relative z-30">
         <div className="self-stretch flex flex-col justify-start items-center gap-6 relative z-30">
           <div className="self-stretch text-center justify-start text-[#02203b] text-5xl font-extrabold font-['Roboto'] leading-[52.80px]">
