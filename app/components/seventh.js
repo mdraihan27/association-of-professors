@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export function Seventh() {
   return (
-    <div>
-      <div className="flex py-20 px-[75px] flex-col items-start gap-20 bg-[#F7F3EC] overflow-auto relative z-30">
-        <div className="flex flex-col items-start gap-8 w-[639px]">
-          <div className="flex items-center gap-4 w-fit">
-            <p className="text-[#000] font-roboto text-[48px] font-extrabold leading-[1.1em] w-[562px] text-center">
+    <div className="w-full flex justify-center bg-[#F7F3EC] relative z-30">
+      <div className="w-full max-w-[1440px] py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-[75px] flex flex-col items-start gap-10 md:gap-16 lg:gap-20">
+        <div className="flex flex-col items-start gap-4 md:gap-8 w-full max-w-[639px]">
+          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 w-full">
+            <p className="text-[#000] font-roboto text-3xl sm:text-4xl md:text-[48px] font-extrabold leading-snug md:leading-[1.1em] w-full sm:w-[562px] text-center sm:text-left">
               대한교수협회 × 네이버 카페
             </p>
             <svg
@@ -23,14 +23,14 @@ export function Seventh() {
               />
             </svg>
           </div>
-          <p className="text-[#000] font-roboto text-xl font-normal leading-[1.8em] w-full">
+          <p className="text-[#000] font-roboto text-base md:text-xl font-normal leading-relaxed md:leading-[1.8em] w-full">
             대한교수협회 산하 사회복지·심리상담 카페로,<br></br>학생·실무자·일반 시민까지
             함께 질문하고 배우는<br></br>열린 지식 커뮤니티입니다.
           </p>
         </div>
-        <div className="flex flex-col items-start gap-10 w-full">
-          <div className="flex items-start gap-4 w-full">
-            <div className="flex flex-col justify-between items-center rounded-xl border-3 border-[#000] bg-[#FFF] w-[310px] h-90 overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_18px_40px_-14px_rgba(0,0,0,0.25)] hover:border-[#0f2f52] hover:bg-[#f9fbff]">
+        <div className="flex flex-col items-start gap-8 md:gap-10 w-full">
+          <div className="flex flex-col md:flex-row md:flex-wrap items-stretch gap-6 md:gap-4 w-full">
+            <div className="flex flex-col justify-between items-center rounded-xl border-3 border-[#000] bg-[#FFF] w-full md:w-[310px] h-90 overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_18px_40px_-14px_rgba(0,0,0,0.25)] hover:border-[#0f2f52] hover:bg-[#f9fbff]">
               <div className="flex py-5 px-4 flex-col items-start gap-3 w-full">
                 <svg
                   width="18"
@@ -52,29 +52,26 @@ export function Seventh() {
                     </clipPath>
                   </defs>
                 </svg>
-                <p className="text-[#000] font-roboto text-2xl font-bold leading-[1.2em] w-fit">
+                <p className="text-[#000] font-roboto text-xl md:text-2xl font-bold leading-[1.2em] w-fit">
                   활동 1.<br></br>교육 &amp; 멘토링
                 </p>
-                <p className="text-[#000] font-roboto text-sm font-normal leading-[1.8em] w-full">
+                <p className="text-[#000] font-roboto text-sm md:text-base font-normal leading-[1.8em] w-full">
                   사회복지·심리상담에 관심 있는 학생과 실무자를 대상으로,
                   교수들의 강연과 소규모 멘토링을 통해 진로와 연구 방향을 함께
                   모색합니다.
                 </p>
               </div>
               <div className="flex flex-col items-center shrink-0 w-full h-[107px] ">
-               
-               
-                  <Image
-                    src="/illustrations/seventh/image1.png"
-                    className=""
-                    alt=""
-                    width={314}
-                    height={107}
-                  />
-                
+                <Image
+                  src="/illustrations/seventh/image1.png"
+                  className="w-full h-full object-cover"
+                  alt=""
+                  width={314}
+                  height={107}
+                />
               </div>
             </div>
-            <div className="flex flex-col items-center rounded-xl border-3 border-[#000] bg-[#FFF] w-[310px] h-90 overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_18px_40px_-14px_rgba(0,0,0,0.25)] hover:border-[#0f2f52] hover:bg-[#f9fbff]">
+            <div className="flex flex-col items-center rounded-xl border-3 border-[#000] bg-[#FFF] w-full md:w-[310px] h-90 overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_18px_40px_-14px_rgba(0,0,0,0.25)] hover:border-[#0f2f52] hover:bg-[#f9fbff]">
               <div className="flex py-5 px-4 flex-col items-start gap-3 shrink-0 w-full h-65">
                 <svg
                   width="18"
@@ -89,10 +86,10 @@ export function Seventh() {
                     fill="#02C27F"
                   />
                 </svg>
-                <p className="text-[#000] font-roboto text-2xl font-bold leading-[1.2em] w-fit">
+                <p className="text-[#000] font-roboto text-xl md:text-2xl font-bold leading-[1.2em] w-fit">
                   활동 2.<br></br>실무 Q&amp;A &amp; 업종별 상담
                 </p>
-                <p className="text-[#000] font-roboto text-sm font-normal leading-[1.8em] w-full">
+                <p className="text-[#000] font-roboto text-sm md:text-base font-normal leading-[1.8em] w-full">
                   사회복지기관·상담센터·현장에서 활동하는 교수·박사 및
                   실무자들이, 카페 내 Q&amp;A를 통해 세무·법률·사업·창업 등과
                   관련된 현실적인 고민을 나누고 서로 답하는 구조를 만들어
@@ -100,19 +97,16 @@ export function Seventh() {
                 </p>
               </div>
               <div className="flex flex-col items-center shrink-0 w-full h-[107px] ">
-               
-               
-                  <Image
-                    src="/illustrations/seventh/image2.png"
-                    className=""
-                    alt=""
-                    width={314}
-                    height={150}
-                  />
-                
+                <Image
+                  src="/illustrations/seventh/image2.png"
+                  className="w-full h-full object-cover"
+                  alt=""
+                  width={314}
+                  height={150}
+                />
               </div>
             </div>
-            <div className="flex flex-col justify-between items-between rounded-xl border-3 border-[#000] bg-[#FFF] w-[310px] h-90 overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_18px_40px_-14px_rgba(0,0,0,0.25)] hover:border-[#0f2f52] hover:bg-[#f9fbff]">
+            <div className="flex flex-col justify-between items-between rounded-xl border-3 border-[#000] bg-[#FFF] w-full md:w-[310px] h-90 overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_18px_40px_-14px_rgba(0,0,0,0.25)] hover:border-[#0f2f52] hover:bg-[#f9fbff]">
               <div className="flex py-5 px-4 flex-col items-start gap-3 w-full">
                 <svg
                   width="18"
@@ -134,28 +128,25 @@ export function Seventh() {
                     </clipPath>
                   </defs>
                 </svg>
-                <p className="text-[#000] font-roboto text-2xl font-bold leading-[1.2em] w-fit">
+                <p className="text-[#000] font-roboto text-xl md:text-2xl font-bold leading-[1.2em] w-fit">
                   활동 3.공공정책 &amp; 사회 기여
                 </p>
-                <p className="text-[#000] font-roboto text-sm font-normal leading-[1.8em] w-full">
+                <p className="text-[#000] font-roboto text-sm md:text-base font-normal leading-[1.8em] w-full">
                   정부·지자체와의 정책 협력 시스템을 구축해, 교수·박사들의
                   전문성이 공공정책과 사회문제로 이어지도록 합니다.
                 </p>
               </div>
               <div className="flex flex-col items-center shrink-0 w-full h-[100px] ">
-               
-               
-                  <Image
-                    src="/illustrations/seventh/image3.png"
-                    className=""
-                    alt=""
-                    width={314}
-                    height={100}
-                  />
-                
+                <Image
+                  src="/illustrations/seventh/image3.png"
+                  className="w-full h-full object-cover"
+                  alt=""
+                  width={314}
+                  height={100}
+                />
               </div>
             </div>
-            <div className="flex flex-col justify-between h-[360px] rounded-xl border-3 border-[#000] bg-[#FFF] w-[310px] overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_18px_40px_-14px_rgba(0,0,0,0.25)] hover:border-[#0f2f52] hover:bg-[#f9fbff]">
+            <div className="flex flex-col justify-between h-[360px] rounded-xl border-3 border-[#000] bg-[#FFF] w-full md:w-[310px] overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-[0px_18px_40px_-14px_rgba(0,0,0,0.25)] hover:border-[#0f2f52] hover:bg-[#f9fbff]">
               <div className="flex py-5 px-4 flex-col items-start gap-3 w-full">
                 <svg
                   width="18"
@@ -177,10 +168,10 @@ export function Seventh() {
                     </clipPath>
                   </defs>
                 </svg>
-                <p className="text-[#000] font-roboto text-2xl font-bold leading-[1.2em] w-fit">
+                <p className="text-[#000] font-roboto text-xl md:text-2xl font-bold leading-[1.2em] w-fit">
                   활동 4.연구·콘텐츠 사업
                 </p>
-                <p className="text-[#000] font-roboto text-sm font-normal leading-[1.8em] w-full">
+                <p className="text-[#000] font-roboto text-sm md:text-base font-normal leading-[1.8em] w-full">
                   사회복지·심리상담 분야에서 쌓인 연구와 현장 경험을 바탕으로
                   온라인 강의·워크숍·교재 등 교육 콘텐츠를 기획·개발하고,
                   장기적으로는 그 수익을 연구·장학 지원으로 이어지는 선순환
@@ -188,21 +179,18 @@ export function Seventh() {
                 </p>
               </div>
               <div className="flex flex-col items-center shrink-0 w-full h-[100px] ">
-               
-               
-                  <Image
-                    src="/illustrations/seventh/image4.png"
-                    className=""
-                    alt=""
-                    width={314}
-                    height={100}
-                  />
-                
+                <Image
+                  src="/illustrations/seventh/image4.png"
+                  className="w-full h-full object-cover"
+                  alt=""
+                  width={314}
+                  height={100}
+                />
               </div>
             </div>
           </div>
-          <button className="cursor-pointer text-nowrap flex py-8 px-0 justify-center items-center gap-5 rounded-xl bg-[#02203B] w-full transition-all duration-200 hover:-translate-y-1 hover:bg-[#0a2f5a] hover:shadow-[0px_18px_38px_-12px_rgba(2,32,59,0.45)] active:translate-y-0 active:shadow-[0px_12px_26px_-14px_rgba(2,32,59,0.40)] active:bg-[#011c35]">
-            <p className="text-[#FFF] font-roboto text-[22px] font-semibold leading-[1.2em] w-fit">
+          <button className="cursor-pointer text-nowrap flex py-4 sm:py-6 md:py-8 px-0 justify-center items-center gap-4 sm:gap-5 rounded-xl bg-[#02203B] w-full transition-all duration-200 hover:-translate-y-1 hover:bg-[#0a2f5a] hover:shadow-[0px_18px_38px_-12px_rgba(2,32,59,0.45)] active:translate-y-0 active:shadow-[0px_12px_26px_-14px_rgba(2,32,59,0.40)] active:bg-[#011c35]">
+            <p className="text-[#FFF] font-roboto text-lg md:text-[22px] font-semibold leading-[1.2em] w-fit text-center">
               네이버 카페 바로가기
             </p>
             <svg
