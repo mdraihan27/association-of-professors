@@ -1,6 +1,7 @@
-export function FourthTree() {
+export function FourthTree({ className = "" }) {
   return (
     <svg
+      className={className}
       width="1290"
       height="683"
       viewBox="0 0 1290 683"
